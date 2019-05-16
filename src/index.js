@@ -6,9 +6,9 @@ import html2canvas from 'html2canvas';
 
 class Rent extends Component {
     
-    downloadFile() {
+    downloadFile = () => {
 
-        const input = document.getElementById('rent');
+        const input = document.querySelector('.rent-container');
         
         html2canvas(input).then(canvas=>{
             

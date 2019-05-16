@@ -4,7 +4,8 @@
   "description": "An App for generating rent receipt",
   "scripts": {
     "webpack": "webpack",
-    "server": "webpack-dev-server"
+    "server": "webpack-dev-server",
+    "start" : "serve -s build"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "serve": "^11.0.0"
   }
 }

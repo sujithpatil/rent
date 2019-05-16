@@ -1,0 +1,11 @@
+{
+    "id":"Receipt # : ",
+    "date" : "Date : ",
+    "tenant" : "Rent Received from ",
+    "of" : "of Rs",
+    "for" : "For the month of ",
+    "rent":"Rent Receipt",
+    "owner" : "Owner Name : ",
+    "signature" : "Signed By",
+    "download" : "Download"
+}
